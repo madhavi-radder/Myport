@@ -103,7 +103,7 @@ export const experiences = [
     id: 0,
     // img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
     role: "Associate Software Engineer (Front End )",
-    company: "",
+    company: "Pepil Network",
     date: "August 2023 - July 2024",
     desc: "Working on the frontend of the web application using ReactJS,Tailwind and Bootstrap and Material UI.",
     skills: [
@@ -182,7 +182,7 @@ export const projects = [
   },
   {
     id: 1,
-    title: "POS (Saas)",
+    title: "Point of sale (Saas)",
     date: "Mar 2024 - june 2024",
     description:
       "Integrated POS systems with inventory management, accounting, and customer relationship managemen (CRM) software to streamline business processes. Collaborated with cross-functional teams to design and deploy user friendly POS solutions.",
@@ -202,7 +202,7 @@ export const projects = [
     title: "Edujinni Education",
     date: "Oct 2022 - Jan 2023",
     description:
-      "EdujinniEducation is an Product company I successfully built a state of the art education company website using JavaScript for our esteemed client. My role in this project encompassed designing and implementing creative solutions, ensuring seamless functionality and a user friendly interface",
+      "As a Front-End Developer, I was responsible for designing the front-end modules using HTML, CSS, and JavaScript. My key tasks included creating a course card listing module, a user review module, and designing the Study Abroad, Contact Us,Login, and Register pages. I followed the UI designs provided in Figma by management, as assigned by my manager. Throughout the project, I collaborated closely with the development team to ensure timely delivery. Our team focused on integrating the front-end designs with the backend, which was developed by PHP developers.",
     image:
       "https://camo.githubusercontent.com/fbf405040ae86b5d4a40f24e4ac034982cb8c0e2d850560ba64527997b258be8/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
     

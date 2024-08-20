@@ -155,20 +155,36 @@ const ButtonGroup = styled.div`
 `;
 
 const Button = styled.a`
-    width: 100%;
+    width: 40%;
     text-align: center;
     font-size: 16px;
     font-weight: 600;
     color: ${({ theme }) => theme.text_primary};
     padding: 12px 16px;
     border-radius: 8px;
-    background-color: ${({ theme }) => theme.primary};
+            background-image: linear-gradient(to right, #673AB7 0%, #512DA8  51%, #673AB7  100%);
     ${({ dull, theme }) => dull && `
-        background-color: ${theme.bgLight};
-        color: ${theme.text_secondary};
+         
+            background-image: linear-gradient(to right, #673AB7 0%, #512DA8  51%, #673AB7  100%);
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+         
+       
+        
+         
+      
         &:hover {
-            background-color: ${({ theme }) => theme.bg + 99};
-        }
+  background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;        }
     `}
     cursor: pointer;
     text-decoration: none;

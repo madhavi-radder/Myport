@@ -182,10 +182,24 @@ export const ResumeButton = styled.a`
     font-weight: 600;
     transition: all 0.2s ease-in-out !important;
     background: hsla(271, 100%, 50%, 1);
-    background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-    background: -moz-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-    background: -webkit-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+ 
+            background-image: linear-gradient(to right, #C33764 0%, #1D2671  51%, #C33764  100%);
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            // box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+        
+         
     box-shadow:  20px 20px 60px #1F2634,
+background-image: linear-gradient(to right, #2980b9 0%, #2c3e50  51%, #2980b9  100%);
+
+          
     -20px -20px 60px #1F2634;
     &:hover {
         transform: scale(1.05);
@@ -193,7 +207,11 @@ export const ResumeButton = styled.a`
     box-shadow:  20px 20px 60px #1F2634,
     filter: brightness(1);
     }    
-    
+   ResumeButton:hover{
+   background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+   } 
     
     @media (max-width: 640px) {
         padding: 12px 0;

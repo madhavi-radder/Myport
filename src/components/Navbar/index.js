@@ -5,6 +5,7 @@ import { FaBars } from 'react-icons/fa';
 import { Bio } from '../../data/constants';
 import { Close, CloseRounded } from '@mui/icons-material';
 import { useTheme } from 'styled-components';
+import logo_madhavi from '../../images/logo_madhavivr.png'
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -14,7 +15,8 @@ const Navbar = () => {
       <NavbarContainer>
         <NavLogo to='/'>
           <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
-            <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
+           {/* <Span>Portfolio</Span> */}
+           <img src={logo_madhavi} style={{width:"160px"}}/>
           </a>
         </NavLogo>
         <MobileIcon>
