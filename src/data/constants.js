@@ -6,7 +6,7 @@ export const Bio = {
     "Web Developer",
   ],
   description:
-    "Passionate Front end Web Developers killed in HTML, CSS, JavaScript, and React JS. A creative problem-solver with a keen eye for design, dedicated to creating outstanding user experiences. Committed to keeping up with the latest technologies and trends in web development.",
+    "Passionate Front end Web Developers skilled in HTML, CSS, JavaScript, and React JS. A creative problem-solver with a keen eye for design, dedicated to creating outstanding user experiences. Committed to keeping up with the latest technologies and trends in web development.",
   github: "https://github.com/madhavi-radder",
   resume:
     "https://drive.google.com/file/d/1vSfde8ULnrYJKX7dylDNwlFowi_OjfSm/view?usp=drive_link",
